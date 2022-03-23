@@ -1,0 +1,21 @@
+.introducao {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 100px;
+  padding: 40px;
+  align-items: center;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.introducao h1 {
+  font-size: 6rem;
+  word-wrap: break-word;
+  line-height: 1.1;
+}
+.botao a {
+  text-align: none;
+}

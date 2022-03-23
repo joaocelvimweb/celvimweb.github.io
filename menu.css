@@ -1,0 +1,19 @@
+.colunas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.titulo {
+  background-color: blue;
+}
+.titulo {
+  display: grid;
+  align-content: flex-end;
+  justify-content: center;
+  gap: 10px 0px;
+  max-width: 60ch;
+}

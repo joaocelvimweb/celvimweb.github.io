@@ -1,0 +1,44 @@
+.introducao {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
+  padding: 40px;
+}
+.introducao h1 {
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: bold;
+  color: #141414;
+  position: relative;
+}
+
+.introducao p {
+  font-size: 20px;
+  line-height: 1.8;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+.introducao h1::before {
+  content: "";
+  width: 130px;
+  height: 100px;
+  position: absolute;
+  display: block;
+  background-image: url(./img/detalhe.svg);
+  background-position: center;
+  top: 0px;
+  left: -30px;
+  z-index: -1;
+}
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+  }
+}
